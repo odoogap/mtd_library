@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="odoogap-mtd",
-    version="0.0.6",
+    version="0.1.0",
     author="OdooGap",
-    author_email="author@example.com",
-    description="A small example package",
-    long_description=long_description,
+    author_email="",
+    description="MTD Library For OdooGAP",
+    long_description="OdooGAP MTD external libray",
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/odoogap/mtd_library",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
